@@ -4,33 +4,38 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Orbitly</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <main>
-      <header>
-        <nav>
-          <div class="nav-links">
-            <section>
-              <!-- LOGO -->
-              <div class="logo">
-                <h1>Orbitly</h1>
-              </div>
-            </section>
-            <ul>
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Features</a></li>
-              <li><a href="#">Pricing</a></li>
-              <li><a href="#">Blog</a></li>
-              <li><a href="#">FAQ</a></li>
-            </ul>
+    <header>
+      <nav>
+        <div class="nav-links">
+          <!-- LOGO -->
+          <div class="logo">
+            <span>Orbitly</span>
           </div>
-        </nav>
-      </header>
-    </main>
+
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">FAQ</a></li>
+          </ul>
+          <div class="nav-auth">
+            <a href="#" class="nav-login">Log In</a>
+            <a href="#" class="nav-signin">Sign In</a>
+          </div>
+        </div>
+      </nav>
+    </header>
 
     <main>
-      <section class="hero">
-        <h1>Automate Your Workflow Without the Chaos</h1>
+      <div class="hero">
+        <h1>
+          <span class="highlight">Automate</span> Your Workflow Without the
+          Chaos
+        </h1>
         <p>
           Connect your favorite apps, automate repetitive tasks, and save up to
           15 hours every single week. No coding required.
@@ -40,8 +45,166 @@
           <a href="#" class="btn">Start Free Trial</a>
           <a href="#" class="btn btn-secondary">Watch Demo</a>
         </div>
-        <h6>Trusted by 10,000+ modern teams</h6>
+        <p>Trusted by 10,000+ modern teams</p>
+      </div>
+
+      <section class="companies">
+        <div class="company-name"><span>NovaTech</span></div>
+        <div class="company-name">Scalify</div>
+        <div class="company-name"><span>Core</span>Sync</div>
+        <div class="company-name">Clarix</div>
+      </section>
+
+      <section class="features">
+        <h2>Features That Help You Build Better Workflows</h2>
+        <p>
+          Find the exact tools your business needs to eliminate wasted time and
+          move faster
+        </p>
+
+        <div class="feature-card">
+          <span>⚡</span>
+          <h3>Instant Automation</h3>
+          <p>
+            Connect your tools and automate repetitive tasks in minutes. No
+            coding or technical skills required.
+          </p>
+        </div>
+
+        <div class="feature-card">
+          <span>🔗</span>
+          <h3>100+ App Integrations</h3>
+          <p>
+            Orbitly connects with all the tools your team already uses — from
+            Slack to Google Sheets to Notion.
+          </p>
+        </div>
+
+        <div class="feature-card">
+          <span>📊</span>
+          <h3>Real-Time Analytics</h3>
+          <p>
+            Track your workflow performance with live dashboards. See exactly
+            where time is being saved.
+          </p>
+        </div>
+
+        <div class="feature-card">
+          <span>🔒</span>
+          <h3>Enterprise-Grade Security</h3>
+          <p>
+            Your company data is fully encrypted and protected. We are GDPR
+            compliant and audit-ready.
+          </p>
+        </div>
+
+        <div class="feature-card">
+          <span>👥</span>
+          <h3>Team Collaboration</h3>
+          <p>
+            Invite your entire team, assign tasks, and manage workflows together
+            from one central dashboard.
+          </p>
+        </div>
+
+        <div class="feature-card">
+          <span>🎯</span>
+          <h3>Custom Workflows</h3>
+          <p>
+            Build workflows that match exactly how your company operates. No
+            templates forcing you into a box.
+          </p>
+        </div>
+      </section>
+
+      <div class="cta">
+        <a href="#" class="btn">Start Free Trial</a>
+      </div>
+
+      <section class="testimonials">
+        <h2>What Clients Say</h2>
+        <p>
+          We place huge value on strong relationship and have seen the benefit
+          they bring to our business. Customer feedback is vital in helping us
+          to get it right.
+        </p>
+        <div class="testimonials-grid">
+            <div class="testimonials-card">
+              <p>
+                “As a startup founder, I needed one tool that does everything.
+                Orbitly is exactly that. Game changer.”
+              </p>
+              <h4>Aryan Mehta</h4>
+              <span>CEO at LaunchPad Studios</span>
+            </div>
+
+            <div class="testimonials-card">
+              <p>
+                "Orbitly cut our project delivery time in half. Our team finally
+                stopped drowning in repetitive work."
+              </p>
+              <h4>Sarah Mitchell</h4>
+              <span>Operations Manager at NovaTech</span>
+            </div>
+
+            <div class="testimonials-card">
+              <p>
+                "We replaced four different tools with Orbitly. Our monthly
+                costs dropped and productivity went up."
+              </p>
+              <h4>Emma Clarke</h4>
+              <span>Product Lead at Scalify</span>
+            </div>
+        </div>
       </section>
     </main>
+    <footer>
+      <div class="footer">
+        <div class="footer-section">
+          <h3>Orbitly</h3>
+          <p>Your workflow. Simplified.</p>
+          <small>© 2026 Orbitly. All rights reserved.</small>
+        </div>
+
+        <div class="footer-section">
+          <h4>Products</h4>
+          <ul>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Integrations</a></li>
+            <li><a href="#">Changelog</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Press Kit</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h4>Support</h4>
+          <ul>
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h4>Contact Info</h4>
+          <ul class="social-links">
+            <li><a href="#">📧 support@orbitly.io </a></li>
+            <li><a href="#">🌐 www.orbitly.io</a></li>
+            <li>📍 Greater Lucknow, India</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
