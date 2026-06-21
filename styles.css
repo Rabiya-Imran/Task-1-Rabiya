@@ -19,7 +19,7 @@
 }
 
 body {
-  font-family: 'Segoe UI', Arial, sans-serif;
+  font-family: "Segoe UI", Arial, sans-serif;
   background-color: var(--color-bg);
   color: var(--color-text);
   line-height: 1.6;
@@ -400,4 +400,26 @@ footer {
   .footer {
     grid-template-columns: 1fr;
   }
+}
+
+.hamburger {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .hamburger {
+    background-color: transparent;
+    border: none;
+    display: block;
+  }
+}
+
+.nav-links ul.active {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 70px;
+  left: 0;
+  width: 100%;
+  background-color: var(--color-bg-section);
 }
